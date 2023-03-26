@@ -269,6 +269,17 @@ h6 {
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
+  
+}
+.cvdownload{
+  /* height: 30px; */
+  border: none;  
+  background-color: #149ddd;
+  border-radius: 5px;
+}
+.cvdownload a{
+  color: black;
+  /* font-size: 25px;  */
 }
 
 @media (min-width: 1024px) {
