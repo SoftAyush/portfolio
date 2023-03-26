@@ -272,15 +272,33 @@ h6 {
   
 }
 .cvdownload{
-  /* height: 30px; */
+  height: 50px;
   border: none;  
-  background-color: #149ddd;
-  border-radius: 5px;
+  background-color:#671ee6;
+  /* border-color: rgb(243, 50, 66); */
+  border-radius: 50px;
+  padding: 10px 30px 10px 30px;
+  margin-right: 10px;
+  font-weight: bold;
 }
 .cvdownload a{
-  color: black;
+  color: #FFFFFF;
   /* font-size: 25px;  */
 }
+.hire{
+  /* width: 100px; */
+  height: 50px;
+  border: none;  
+  background-color:#e61e3c;
+  border-radius: 50px;
+  padding: 10px 30px 10px 30px;
+  margin-right: 10px;
+  font-weight: bold;
+
+  }
+  .hire a{
+    color: white ;
+  }
 
 @media (min-width: 1024px) {
   #hero {
@@ -301,6 +319,41 @@ h6 {
   }
 }
 
+@media (max-width:768px){
+  .cvdownload{
+    height: 50px;
+    border: none;  
+    background-color:#671ee6;
+    /* border-color: rgb(243, 50, 66); */
+    border-radius: 50px;
+    padding: 10px 30px 10px 30px;
+    margin-right: 10px;
+    font-weight: bold;
+   
+    
+  }
+  .cvdownload a{
+    color: white;
+    /* font-size: 25px;  */
+  }
+  .hire::after{
+    white-space: pre;    
+    height: 50px;
+    border: none;  
+    background-color:#e61e3c;
+    border-radius: 50px;
+    padding: 10px 30px 10px 30px;
+    margin-right: 10px;
+    font-weight: bold;
+    
+    
+    
+  
+    }
+    .hire a{
+      color: white ;
+    }
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
