@@ -1,9 +1,3 @@
-/**
-* Template Name: iPortfolio - v3.9.1
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -259,3 +253,11 @@
   new PureCounter();
 
 })()
+
+// Calculate and display age dynamically
+document.addEventListener("DOMContentLoaded", function() {
+  var yearOfBirth = 2002;
+  var currentYear = new Date().getFullYear();
+  var age = currentYear - yearOfBirth;
+  document.getElementById('age').textContent = age + ' years';
+});
